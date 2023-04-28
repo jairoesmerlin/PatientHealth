@@ -1,5 +1,6 @@
 # README
-Part 1
+
+## Part 1
 
 When signing up for Twentyeight Health, a patient has the ability to choose a single product from one or more categories:  Birth Control, Emergency Contraception, Testing Kits, OTC Products.  Each product also has attributes such as name, identifier, quantity, price, and instructions.  
 
@@ -9,14 +10,14 @@ The app also has a list of all US states (constants provided), whether or not we
 
 Using the codebase provided, model these objects and their relationships and seed the database.
 
-Implemented!!!!
+**Implemented!!!!**
 
-Part 2
+## Part 2
 
 We have just been informed that certain products cannot be offered in some states.  
 What types of questions come to mind?  How would you model this change?  Feel free to either implement in the codebase, sketch a diagram, or write your answer.
 
-Answer:
+**Answer:**
 The following questions come to mind:
 
 1. Which products are not allowed in which states and why, what are the reasons?
@@ -38,12 +39,12 @@ The Prohibition model would store information on the products that are not allow
 To implement this change, I would create a new migration file to create the Prohibition model and its attributes, then run the migration. I would also update the appropriate controllers and views to handle the new model and its associations if is needed.
 
 
-Part 3
+## Part 3
 
 We’ve now been informed that certain products can be offered in some states, but the minimum age requirement is different for these products than all other ones in this state.
 What types of questions come to mind?  How would you model this change?  Feel free to either implement in the codebase, sketch a diagram, or write your answer.
 
-Answer:
+**Answer:**
 The following questions come to mind:
 
 1. Which states have products with different minimum age requirements compared to other products in that state?
