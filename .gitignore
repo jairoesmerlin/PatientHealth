@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+/node_modules
